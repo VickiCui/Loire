@@ -1,3 +1,5 @@
+Code for EMNLP Findings 2020 paper: [Beyond Language: Learning Commonsense from Images for Reasoning](https://arxiv.org/abs/2010.05001)
+
 ## Installation
 
 - Setup a conda environment and install some prerequisite packages
@@ -117,4 +119,14 @@ For test on WinoGrande, set `--task=winogrande` and `--data_dir=./data/WinoGrand
 For test RoBERTa+ViBERT, set `--model=roberta`.
 
 Parameters `--feature, --norm, --max_seq_length, --model, pretrained_bert` should be consistent with the parameters set during training
+
+### Cite
+```shell
+@article{cui2020beyond,
+  title={Beyond Language: Learning Commonsense from Images for Reasoning},
+  author={Cui, Wanqing and Lan, Yanyan and Pang, Liang and Guo, Jiafeng and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2010.05001},
+  year={2020}
+}
+```
 
